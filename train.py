@@ -15,6 +15,8 @@ import utils.import_envs  # noqa: F401 pytype: disable=import-error
 from utils.exp_manager import ExperimentManager
 from utils.utils import ALGOS, StoreDict
 
+from gym_micro_rct.envs.rct_env import RCT
+
 seaborn.set()
 
 if __name__ == "__main__":  # noqa: C901
