@@ -1,6 +1,11 @@
 [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) [![coverage report](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/coverage.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) [![codestyle](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+# RCTRL Baselines
 
+Hacked to be compatible with [![micro-rct](https://github.com/smearle/rctrl-baselines3-zoo/tree/rct)] RCT-v0
+
+To train using a2c:
+`python train.py --env RCT-v0 --tensorboard-log ./test_0 --algo a2c'
 
 # RL Baselines3 Zoo: a Collection of Pre-Trained Reinforcement Learning Agents
 
